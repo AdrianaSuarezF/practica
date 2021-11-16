@@ -1,0 +1,16 @@
+C:\Users\Adriana\source\repos\Task1\bin\Debug\net5.0\Task1.exe
+C:\Users\Adriana\source\repos\Task1\bin\Debug\net5.0\Task1.deps.json
+C:\Users\Adriana\source\repos\Task1\bin\Debug\net5.0\Task1.runtimeconfig.json
+C:\Users\Adriana\source\repos\Task1\bin\Debug\net5.0\Task1.runtimeconfig.dev.json
+C:\Users\Adriana\source\repos\Task1\bin\Debug\net5.0\Task1.dll
+C:\Users\Adriana\source\repos\Task1\bin\Debug\net5.0\ref\Task1.dll
+C:\Users\Adriana\source\repos\Task1\bin\Debug\net5.0\Task1.pdb
+C:\Users\Adriana\source\repos\Task1\obj\Debug\net5.0\Task1.csproj.AssemblyReference.cache
+C:\Users\Adriana\source\repos\Task1\obj\Debug\net5.0\Task1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adriana\source\repos\Task1\obj\Debug\net5.0\Task1.AssemblyInfoInputs.cache
+C:\Users\Adriana\source\repos\Task1\obj\Debug\net5.0\Task1.AssemblyInfo.cs
+C:\Users\Adriana\source\repos\Task1\obj\Debug\net5.0\Task1.csproj.CoreCompileInputs.cache
+C:\Users\Adriana\source\repos\Task1\obj\Debug\net5.0\Task1.dll
+C:\Users\Adriana\source\repos\Task1\obj\Debug\net5.0\ref\Task1.dll
+C:\Users\Adriana\source\repos\Task1\obj\Debug\net5.0\Task1.pdb
+C:\Users\Adriana\source\repos\Task1\obj\Debug\net5.0\Task1.genruntimeconfig.cache
