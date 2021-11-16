@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Challengue1_meses
+namespace Task1
 {
     class Program
     {
@@ -10,47 +10,56 @@ namespace Challengue1_meses
             int mes = int.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese el año: ");
             int año = int.Parse(Console.ReadLine());
-            bool bisiesto = false;
-            int x = año % 4;
-            int y = año % 100;
+            int dias = Days(mes, año);
+            Console.Write("La respuesta es: ");
+            Console.WriteLine(dias);
 
-            if (x == 0 && y!= 0)
+        }
+
+        public static int Days(int month, int year)
+        {
+            int respuesta = 0;
+            bool bisiesto = false;
+            int x = year % 4;
+            int y = year % 100;
+
+            if (x == 0 && y != 0)
             {
                 bisiesto = true;
             }
 
-            if (mes ==2)
+            if (month == 2)
             {
                 if (bisiesto == true)
                 {
-                    Console.WriteLine(" 29 días ");
+                    respuesta = 29;
                 }
                 else
                 {
-                    Console.WriteLine(" 28 días ");
+                    respuesta = 28;
                 }
             }
-            switch (mes)
+            switch (month)
             {
                 case 1:
                 case 3:
                 case 5:
                 case 7:
                 case 8:
-                case 10: 
+                case 10:
                 case 12:
                     {
-                       Console.WriteLine(" 31 días ");
-                       break; 
+                        respuesta = 31;
+                        break;
                     }
                 case 4:
                 case 6:
                 case 9:
-                case 11: 
-                        { 
-                         Console.WriteLine(" 30 días ");
-                         break;
-                        }
+                case 11:
+                    {
+                        respuesta = 30;
+                        break;
+                    }
                 case 2:
                     {
                         break;
@@ -60,8 +69,11 @@ namespace Challengue1_meses
                         Console.WriteLine(" número de mes inválido ");
                         break;
                     }
-
             }
+            return respuesta;
         }
     }
 }
+
+
+
